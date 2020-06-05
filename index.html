@@ -30,7 +30,7 @@
 
 <body class="text-center">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" >
     <div class="container">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation" style=""> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
@@ -56,32 +56,33 @@
   <div class="d-flex align-items-center section-dark py-5 cover" style="background-image: url(https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940);">
     <div class="container">
       <div class="row">
-        <div class="text-white mt-5 shadow-lg col-lg-4" style="">
-          <h1 class="d-none d-md-block display-4">Consultoria CJL</h1>
+        <div class="col-lg-6 text-white mt-5 shadow-lg">
+          <h1 class="display-2 d-none d-md-block">Consultoria CJL</h1>
           <h1 class="display-4 d-block d-md-none">Consultoria CJL</h1>
           <p class="">Construindo o Futuro</p>
-          <a href="#quemsomos" class="text-warning"> <i class="fa fa-angle-down pt-5 fa-3x d-block text-light lead"></i> </a>
+          <a href="#quemsomos"> <i class="fa fa-angle-down pt-5 fa-3x d-block text-light lead"></i> </a>
         </div>
-        <div class="col-md-4 shadow-lg" style="">
+        <div class="col-md-6 shadow-lg">
           <form class="text-left" action="https://formspree.io/meqraqkl" method="POST">
-            <div class="form-group"> <label for="form16">Nome e Sobrenome</label> <input type="text" class="form-control" id="form16" placeholder="Nome e Sobrenome" required="required" name="Nome:"> </div>
+            <div class="form-group"> <label for="form16">Nome e Sobrenome:</label> <input type="text" class="form-control" id="form16" placeholder="Nome e Sobrenome" required="required" name="Nome:"> </div>
             <div class="form-group"> <label for="form17">Para quem é o serviço?</label> <select class="custom-select d-block w-100" id="state" required="" name="Para quem é?:">
                 <option value="" selected="">Selecione uma opção</option>
                 <option value="Empresa">Empresa</option>
                 <option value="Residencial">Residencial</option>
                 <option value="Compercio">Comércio</option>
               </select> </div>
-            <div class="form-group"><label for="form18">Email</label> <input type="email" class="form-control" id="form18" placeholder="exemplo@exemplo.com" required="required" name="Email"> </div>
+            <div class="form-group"><label for="form18">Email:</label> <input type="email" class="form-control" id="form18" placeholder="exemplo@exemplo.com" required="required" name="Email"> </div>
+            <div class="form-group"><label for="form18">Telefone (WhatsApp):</label> <input type="number" class="form-control" id="form18" required="required" name="Telefone - WhatsApp"> </div>
             <div class="form-row">
-              <div class="form-group col-md-12"> <label for="form18">Serviço Desejado</label> <select class="custom-select d-block w-100" id="state" required="" name="Serviço">
+              <div class="form-group col-md-12"> <label for="form18">Serviço Desejado:</label> <select class="custom-select d-block w-100" id="state" required="" name="Serviço">
                   <option value="" selected="">Selecione o Serviço Desejado</option>
-                  <option value="Consultoria de ti">Consultoria de TI</option>
-                  <option value="Infra de rede">Infraestrutura de Redes</option>
-                  <option value="Manut de Compt">Manutenção de Computadores</option>
-                  <option value="Seguranca e Gov">Segurança e Governança</option>
-                  <option value="Dev Site">Desenvolvimento de Sites</option>
-                  <option value="Dev App">Desenvolvimento de App</option>
-                  <option value="Dev de Sistema">Desenvolvimento de Software</option>
+                  <option value="Consultoria de TI">Consultoria de TI</option>
+                  <option value="Infra de Rede">Infraestrutura de Redes</option>
+                  <option value="Manutenção de PC">Manutenção de Computadores</option>
+                  <option value="Segurança e Gov">Segurança e Governança</option>
+                  <option value="Dev de Site">Desenvolvimento de Sites</option>
+                  <option value="Dev de App">Desenvolvimento de App</option>
+                  <option value="Dev de Sotfware">Desenvolvimento de Software</option>
                 </select> </div>
             </div>
             <div class="form-group">
@@ -89,11 +90,10 @@
             </div> <button type="submit" class="btn btn-dark">Enviar</button>
           </form>
         </div>
-        <div class="col-md-4 rounded-lg border-danger" style=""><a href="https://wa.me/5511995539956?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais!"><img class="img-fluid d-block shadow-lg" src="imagens/Promocao/p1.jpeg"></a></div>
       </div>
     </div>
   </div>
-  <div class="py-5 text-center bg-dark" id="quemsomos" >
+  <div class="py-5 text-center bg-dark" id="quemsomos">
     <div class="container">
       <div class="row">
         <div class="col-md-12 bg-dark">
@@ -159,7 +159,7 @@
             <li class="mb-2"> <b>Suporte em Geral</b>&nbsp;- Suporte referente a resolução de problemas do dia a dia como manutenção de computadores, formatação, manutenção de redes cabeadas e/ou sem fio, hardware em geral, software, instalação de programas, compartilhamento de pastas, compartilhamento, compartilhamento de impressoras, eliminação de vírus;</li>
             <li class="mb-2"> <b>Site Pessoal / Blog</b> - Criamos um site pessoal para você compartilhar portifólio, formas de contato e muito mais.</li>
             <li class="mb-2"> <b>Aulas de Informatica</b>&nbsp;- Para clientes residenciais possuimos o serviço de intrutor pessoal, onde o cliente pode ter aulas de Informatica Básica, Hardware, Excel, Desenvolvimento de App, Desenvolvimento de Software, criação de sites e muito mais.</li>
-          </ul>
+          </ul><a class="btn btn-dark" href="servicos.html">Saber Mais</a>
         </div>
       </div>
     </div>
