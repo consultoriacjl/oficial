@@ -27,9 +27,30 @@
   gtag('config', 'UA-167145249-1');
 </script>
   <script src="js/animate-in.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
 
 <body class="text-center">
+  <script>
+Swal.fire({
+  title: '<strong>Bem vindo ao site da CJL Consultoria</strong>',
+  icon: 'success',
+  html:
+    'Se procura serviços <b>Para Empresas</b>, ' + 
+    '<a href="https://cjlconsultoria.com.br/servicos.html">Clique aqui</a> ' + '</br>' +
+    'Se procura serviços <b>Para Residência</b>, ' +
+    '<a href="https://cjlconsultoria.com.br/planosconsultoria.html">Clique aqui</a> ' + '</br>' +
+	'Agradecemos a sua visita!',
+  showCloseButton: true,
+  showCancelButton: true,
+  focusCancel: true,
+  cancelButtonColor: '#000000' ,
+    cancelButtonText:
+    '<i class="fa fa-times""></i> Pagina Inicial',
+  cancelButtonAriaLabel: 'Thumbs down'
+ 
+})
+</script>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
     <div class="container">
